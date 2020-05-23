@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace Global_Intern.Models
 {
-    public class AppliedInternship
+    public class VisaStatus
     {
-        public int AppliedInternshipId { get; set; }
-        public string EmployerStatus { get; set; }
+
+        public int VisaId { get; set; }
+        public string VisaType { get; set; }
+        public string VisaNumber { get; set; }
         public Student Student { get; set; }
-        public Internship Internship { get; set; }
     }
 }
