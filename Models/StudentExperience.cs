@@ -1,4 +1,4 @@
-﻿using Publisher.Models;
+﻿using Global_Intern.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

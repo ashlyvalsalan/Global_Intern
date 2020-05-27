@@ -3,8 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Global_Intern.Models;
 
-namespace Publisher.Models
+namespace Global_Intern.Models
 {
     public class MainDBContext : DbContext
     {
@@ -15,6 +16,7 @@ namespace Publisher.Models
         public DbSet<InternStudent> InternStudents { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Qualification> Qualifications { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }
