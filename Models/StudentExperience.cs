@@ -12,6 +12,6 @@ namespace Global_Intern.Models
         public System.DateTime StartDate { get; set; }
         public System.DateTime EndDate { get; set; }
         public Boolean Present { get; set; }
-        public Student Student { get; set; }
+       
     }
 }

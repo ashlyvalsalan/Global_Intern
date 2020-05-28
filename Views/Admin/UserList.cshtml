@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Global_Intern.Models.User>
+
+@{
+    ViewData["Title"] = "UserList";
+}
+
+<h1>UserList</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserEmailVerified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserHomeCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserCurrentCountry)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.UserPhone)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.UserGender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserEmailVerified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserHomeCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserCurrentCountry)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.UserPhone)
+            </td>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.UserGender)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "ViewUser", new {id=1}) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
