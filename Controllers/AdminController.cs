@@ -24,9 +24,9 @@ namespace Global_Intern.Controllers
 
             return View(users);
         }
-        public ActionResult ViewUser(int id)
+        public ActionResult ViewUser(int id, List<User> collection)
         {
-            User user = users.FirstOrDefault(c => c.UserId == id);
+            User user = collection.FirstOrDefault(c => c.UserId == id);
             if(user==null)
             {
                 return new HttpNotFoundResult();
@@ -35,6 +35,59 @@ namespace Global_Intern.Controllers
                 return View(user);
             }
              
+        }
+        public ActionResult EditUser(int id, List<User> users)
+        {
+            User user = users.FirstOrDefault(c => c.UserId == id);
+            if (user == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            else
+            {
+                return View(user);
+            }
+        }
+        [HttpPost]
+        public ActionResult EditUser(User user,int id)
+        {
+            var userToEdit= users.FirstOrDefault(c => c.UserId == id);
+            if (userToEdit == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            else
+            {
+                userToEdit.UserFirstName = user.UserFirstName;
+                userToEdit.UserLastName = user.UserFirstName;
+                return RedirectToAction("UserList");
+            }
+        }
+        public ActionResult DeleteUser(int id)
+        {
+            User user = users.FirstOrDefault(c => c.UserId == id);
+            if (user == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            else
+            {
+                return View(user);
+            }
+        }
+       
+        public ActionResult ConfirmDeleteUser(int id)
+        {
+            User user = users.FirstOrDefault(c => c.UserId == id);
+            if (user == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            else
+            {
+                users.Remove(user);
+                return RedirectToAction("UserList");
+            }
         }
     }
 

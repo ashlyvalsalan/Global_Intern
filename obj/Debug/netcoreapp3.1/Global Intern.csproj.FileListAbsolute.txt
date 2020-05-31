@@ -55,13 +55,6 @@ C:\Users\Overmind\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcor
 C:\Users\Overmind\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.dll
 C:\Users\Overmind\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.pdb
 C:\Users\Overmind\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.genruntimeconfig.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.csprojAssemblyReference.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.csproj.CoreCompileInputs.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.RazorAssemblyInfo.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.RazorAssemblyInfo.cs
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.AssemblyInfoInputs.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.AssemblyInfo.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -203,10 +196,20 @@ C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreap
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.csprojAssemblyReference.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.csproj.CoreCompileInputs.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.RazorAssemblyInfo.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.RazorAssemblyInfo.cs
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.AssemblyInfoInputs.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.AssemblyInfo.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.TagHelpers.input.cache
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.TagHelpers.output.cache
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.RazorCoreGenerate.cache
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Admin\DeleteUser.cshtml.g.cs
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUser.cshtml.g.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Admin\UserList.cshtml.g.cs
+C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewUser.cshtml.g.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -220,4 +223,3 @@ C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreap
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.dll
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.pdb
 C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Global Intern.genruntimeconfig.cache
-C:\Users\ashly\Source\Repos\Techexpozed-Global\Global_Intern\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewUser.cshtml.g.cs

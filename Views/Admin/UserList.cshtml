@@ -77,8 +77,8 @@
                 @Html.DisplayFor(modelItem => item.UserGender)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "ViewUser", new {id=1}) |
+                @Html.ActionLink("Edit", "EditUser", new {id= item.UserId, collection = Model }) |
+                @Html.ActionLink("Details", "ViewUser", new { id = item.UserId, collection = Model }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>
