@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿using Global_Intern.Models;
+using System;
 namespace Global_Intern.Models
 {
     public class StudentExperience
@@ -12,6 +12,6 @@ namespace Global_Intern.Models
         public System.DateTime StartDate { get; set; }
         public System.DateTime EndDate { get; set; }
         public Boolean Present { get; set; }
-       
+        public Student Student { get; set; }
     }
 }
